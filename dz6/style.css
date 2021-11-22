@@ -1,0 +1,36 @@
+.box {margin-left: 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      
+}
+.box1 {margin: 25px;
+       padding: 25px 50px;
+       position: relative;
+       bottom: 30px;
+       left: 20px;
+}
+.block {
+    background: green;
+    height: 100px;
+    padding: 50px;
+    width: 50%;
+    margin: 50px auto;  
+}
+.box2 {padding-bottom: 15px;}
+.card {
+    z-index: 1;
+    position: relative;
+}
+.text {
+    z-index: 2;
+    position: absolute;
+}
+.container{position: relative;}
+.topleft{
+    position: absolute;
+    top: 15px;
+    left: 30px
+}
