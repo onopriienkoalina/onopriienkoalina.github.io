@@ -1,0 +1,28 @@
+/*
+"liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "autoprefix": "last 5 version",
+            "extensionName": ".css",
+            "savePath": "css"
+        }
+    ]
+*/
+
+.block{
+width: 100px;
+height: 100px;
+background-color: red;
+animation-name: example 2s;
+animation-duration: 2s;
+}
+
+@keyframes example{
+  from {     
+    color: red;   
+  }   
+  to {
+    color: blue;
+   }
+}

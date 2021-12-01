@@ -1,0 +1,21 @@
+/*
+"liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "autoprefix": "last 5 version",
+            "extensionName": ".css",
+            "savePath": "css"
+        }
+    ]
+*/
+.block{
+width: 100px;
+height: 100px;
+background-color: red;
+&.after{
+content: '';
+animation-duration: .5s;
+background-color: blue;
+}
+}

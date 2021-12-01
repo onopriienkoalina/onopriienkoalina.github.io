@@ -1,0 +1,35 @@
+/*
+"liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "autoprefix": "last 5 version",
+            "extensionName": ".css",
+            "savePath": "css"
+        }
+    ]
+*/
+
+.block{
+width: 100px;
+height: 100px;
+background-color: red;
+animation: 2s block;
+margin: 50px;
+}
+
+@keyframes block{
+  from {     
+    background-color: red;   
+  }   
+  to {
+    background-color: blue;
+   }
+}
+.block-animation{
+width: 100px;
+height: 100px;   
+background-color: red;
+margin: 50px;
+}
+@keyframes block-animation

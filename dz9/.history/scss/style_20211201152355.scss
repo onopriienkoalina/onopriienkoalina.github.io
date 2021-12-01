@@ -1,0 +1,34 @@
+/*
+"liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "autoprefix": "last 5 version",
+            "extensionName": ".css",
+            "savePath": "css"
+        }
+    ]
+*/
+
+.block{
+width: 100px;
+height: 100px;
+animation: animation-name; 
+}
+
+1
+2
+3
+4
+5
+6
+7
+8
+@keyframes animation-name {   
+  from {     
+    color: red;   
+  }   
+  to {
+    color: blue
+   }
+}

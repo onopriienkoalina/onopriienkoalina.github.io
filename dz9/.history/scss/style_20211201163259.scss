@@ -1,0 +1,55 @@
+/*
+"liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "autoprefix": "last 5 version",
+            "extensionName": ".css",
+            "savePath": "css"
+        }
+    ]
+*/
+
+.block{
+width: 100px;
+height: 100px;
+background-color: red;
+animation: 2s block;
+margin: 50px;
+}
+
+@keyframes block{
+  from {     
+    background-color: red;   
+  }   
+  to {
+    background-color: blue;
+   }
+}
+.block-animation{
+width: 100px;
+height: 100px;   
+background-color: red;
+margin: 50px;
+}
+@keyframes block-animation{
+0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+}
+25% {
+    background-color: blue;
+    left: 0px;
+    top: 200px;
+}
+50%{
+    background-color: green;
+    left: 200px;
+    top: 200px;
+}
+75%{
+    background-color: yellow;
+    left: ;
+}
+}

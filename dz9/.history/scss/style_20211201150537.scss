@@ -1,0 +1,25 @@
+/*
+"liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "autoprefix": "last 5 version",
+            "extensionName": ".css",
+            "savePath": "css"
+        }
+    ]
+*/
+.block{
+width: 100px;
+height: 100px;
+background-color: red;
+-webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+@-webkit-keyframes example {
+    0% {
+        background-color:red;   
+    }
+10
+}
