@@ -1,0 +1,19 @@
+.block {
+    width: 1000px;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+.navigation {
+    float: left;
+    background-color: #D3D3D3;
+    width: 20%;
+    height: 200px;
+}
+.main {
+    float: left;
+    background-color: #D3D3D3;
+    margin-left: 5%;
+    width: 75%;
+    height: 200px;
+}
+
