@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+  }
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+    justify-content: space-around;
+  }
+.block_item{
+background-color: #D3D3D3;
+width: 1000px;
+margin: auto;
+}
+.header {
+align-items: stretch;  
+}
+.main1, .main2, .main3 {
+flex-direction: column;
+flex: 0 
+}
+.footer {
+align-items: stretch;  
+}

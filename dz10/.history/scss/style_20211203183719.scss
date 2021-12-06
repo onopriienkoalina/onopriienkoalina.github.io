@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+  }
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+  }
+.block_item{
+
+}
+.header {
+align-items: stretch;  
+}
+.main {
+flex-direction: column;
+}
+.footer {
+align-items: stretch;  
+}

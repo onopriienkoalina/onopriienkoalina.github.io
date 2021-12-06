@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+  }
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+    justify-content: space-between;
+  }
+.block_item{
+background-color: #D3D3D3;
+width: 1000px;
+margin: auto;
+}
+.header {
+flex: 1 100%; 
+}
+.main1, .main2, .main3 {
+flex: 0 1 33.333%;
+}
+.footer {
+
+}
