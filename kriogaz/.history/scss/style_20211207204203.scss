@@ -26,19 +26,19 @@ a {
     padding: 3.3rem 0;
 }
 .header__container {
-    display: flex;
-    align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+display: flex;
+align-items: center;
+-ms-flex-align: center;
+align-items: center;
 }
 .header__logo {
-    font-size: 36px; 
-    font-weight: 900;
-    color: #0F4898;
+   font-size: 36px; 
+   font-weight: 900;
+   color: #0F4898;
 }
 .logo__text {
     color: #FFFFFF;
-}
+  }
 .header__menu {
     margin: 0 auto 0 13.5%;
     font-family: "Montserrat";
@@ -86,7 +86,7 @@ a {
 .news:before{
     width: 40%;
     right: 0;
-}
+  }
 .main-block__image {
     position: absolute;
     width: 100%;
