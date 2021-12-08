@@ -1,0 +1,186 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: "Roboto";
+    line-height: 1;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 300;
+    height: 100%;
+}
+a { 
+    text-decoration: none;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.container {
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+.wrap-header {
+    min-height: 75rem;
+    background: url(../img/Rectangle.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    border-bottom: 1px solid #fff;
+    padding: 3.3rem 0;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header__logo {
+    font-size: 36px; 
+    font-weight: 900;
+    color: #0F4898;
+}
+.logo__text {
+    color: #FFFFFF;
+}
+.header__menu {
+    margin: 0 auto 0 13.5%;
+    font-family: "Montserrat";
+    
+}
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__item {
+    margin: 0 0 0 20px;
+}
+.menu__link {
+    
+    line-height: 257%;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.contacts__link{
+    color: #FFFFFF;
+}
+.project{
+    min-height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.project:before, .news:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #E5E5E5;
+    z-index: -1;
+}
+.project:before{
+    width: 60%;
+    left: 0;
+}
+.news{
+    min-height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.news:before{
+    width: 40%;
+    right: 0;
+}
+.main-block__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+.project__title-content {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 100px 0 0 100px;
+}
+.project__row {
+    display: flex;
+    
+}
+.project__colums{
+    flex: 0 1 50%;
+   
+}
+.item{
+
+}
+.project__subtitle-content {
+    padding: 20px 0 0 100px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.box-project__text {
+z-index: 5;
+flex: 1 1 auto;
+padding: 100px 0 0 100x;
+display: flex;
+align-items: center;
+
+
+}
+.project__text-content {
+    font-size: 13px;
+    font-family: "Montserrat";
+    line-height: 22.19px;
+    background-color: white;
+    padding: 30px 0 0 46px;
+    width: 428px;
+    height: 200px;
+
+
+
+}
+.project__image {
+   
+    margin: 0 0 0 -30px;
+    z-index: -1;
+    width: 427px;
+    height: 450px;
+
+    
+
+}
+.project__title {
+}
+.project__subtitle {
+}
+.news__container {
+    padding: 100px 0;
+}
+.news__title {
+
+}
+.news__subtitle {
+}
+.news__row {
+}
+.news__column {
+}
+.news__item {
+}
+.news__image {
+}
+.news__date {
+}
+.news__label {
+}
+.news__text {
+}
+.news__btn {
+}
