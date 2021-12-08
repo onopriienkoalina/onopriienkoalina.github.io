@@ -164,7 +164,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
 }
 
 .project__text-content {
@@ -178,15 +177,9 @@ a {
 }
 
 .project__image {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 450px;
-          flex: 0 0 450px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 0 0 -10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: 0 0 0 -20px;
   z-index: -1;
 }

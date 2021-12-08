@@ -114,7 +114,7 @@ a {
 }
 .project__colums{
     flex: 0 1 50%;
-    
+    display: flex;
 }
 .item{
 
@@ -128,7 +128,6 @@ a {
 z-index: 5;
 flex: 1 1 auto;
 padding: 100px 0 0 100x;
-display: flex;
 
 
 }
