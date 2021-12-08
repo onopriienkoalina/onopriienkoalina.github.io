@@ -134,21 +134,18 @@ padding: 0 0 0 100x;
     font-family: "Montserrat";
     line-height: 22.19px;
     background-color: white;
-    display: flex;
+    
     padding: 0 0 0 100px;
     width: 428px;
     height: 200px;
-    position: relative;
 
 
 }
 .project__image {
     flex: 0 0 450px;
     box-sizing: border-box;
-    padding: 0 0 0 -10px;
-    display: flex;
-margin: 0 0 0 -20px;
-position: absolute;
+    padding: 0 237px 0 10px;
+    z-index: 3;
     
 
 }

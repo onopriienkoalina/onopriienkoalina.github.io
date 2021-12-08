@@ -107,7 +107,7 @@ a {
 .project__title-content {
     font-size: 30px;
     font-weight: 700;
-    padding: 100px 0 0 100px;
+    padding: 100px 0 0 50px;
 }
 .project__row {
     display: flex;
@@ -119,14 +119,14 @@ a {
 
 }
 .project__subtitle-content {
-    padding: 20px 0 0 100px;
+    padding: 20px 0 0 50px;
     font-size: 15px;
     font-weight: 300;
 }
 .box-project__text {
 z-index: 5;
 flex: 1 1 auto;
-padding: 0 0 0 100x;
+padding: 0 0 0 50x;
 
 }
 .project__text-content {
@@ -134,21 +134,16 @@ padding: 0 0 0 100x;
     font-family: "Montserrat";
     line-height: 22.19px;
     background-color: white;
-    display: flex;
-    padding: 0 0 0 100px;
-    width: 428px;
-    height: 200px;
-    position: relative;
-
+    box-shadow: black 5px;
+    padding: 0 0 0 50x;
+    width: ;
 
 }
 .project__image {
     flex: 0 0 450px;
     box-sizing: border-box;
-    padding: 0 0 0 -10px;
-    display: flex;
-margin: 0 0 0 -20px;
-position: absolute;
+    padding: 0 237px 0 10px;
+    z-index: 3;
     
 
 }
