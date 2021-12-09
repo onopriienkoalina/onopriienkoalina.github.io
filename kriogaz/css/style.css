@@ -133,8 +133,9 @@ a {
 
 .title {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: bold;
   padding: 100px 0 0 100px;
+  line-height: 35px;
 }
 
 .project__row {
@@ -151,8 +152,9 @@ a {
 
 .subtitle {
   padding: 20px 0 0 100px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
+  line-height: 19px;
 }
 
 .box-project__text {
@@ -172,7 +174,7 @@ a {
 .project__text-content {
   font-size: 13px;
   font-family: "Montserrat";
-  line-height: 22.19px;
+  line-height: 22px;
   background-color: white;
   padding: 30px 0 0 46px;
   width: 428px;
@@ -216,7 +218,7 @@ a {
   font-size: 11px;
   line-height: 12.89px;
   color: #343434;
-  letter-spacing: 5%;
+  letter-spacing: 0.05 em;
 }
 
 .news-item__label {
@@ -225,7 +227,7 @@ a {
   font-size: 18px;
   line-height: 25.31px;
   color: #303942;
-  letter-spacing: 3%;
+  letter-spacing: 0.03 em;
 }
 
 .news-item__text {
@@ -234,7 +236,7 @@ a {
   font-size: 11px;
   line-height: 13.54px;
   color: #000000;
-  letter-spacing: 5%;
+  letter-spacing: 0.05 em;
 }
 
 .btn {
@@ -266,9 +268,18 @@ a {
 }
 
 .footerr__text {
+  padding: 0 0 40px 0;
   font-weight: 400;
   font-size: 11px;
   line-height: 12.89px;
   color: #DCDCDC;
   letter-spacing: 0.05em;
+}
+
+.column {
+  padding: 40px 0 22px 0;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 16.41px;
+  font-size: 14px;
 }
