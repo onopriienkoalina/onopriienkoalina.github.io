@@ -147,14 +147,14 @@ a {
 }
 
 .subtitle {
-  padding: 20px 0 0 0;
+  padding: 20px 0 40px 0;
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
 }
 
 .box-project__text-container {
-  margin-top: -50px;
+  margin-top: 95px;
   position: relative;
 }
 
@@ -262,6 +262,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 100px 0 0 771px;
 }
 
 .footer {

@@ -106,9 +106,7 @@ a {
 .container__small {
     max-width: 855px;
 }
-.project__col {
-    
-}
+project__col
 .wrap__tittle {
     width: 50%;
     
@@ -120,13 +118,13 @@ a {
     line-height: 35px;
 }
 .subtitle {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 0 0;
     font-size: 16px;
     font-weight: 300;
     line-height: 19px;
 }
 .box-project__text-container {
-    margin-top: 95px;
+    margin-top: -50px;
     position: relative;
 }
 .box-project__text {
@@ -212,7 +210,6 @@ a {
 .btn__all{
     align-items: center;
     justify-content: space-between;
-    margin: 100px 0 0 771px;
 }
 .footer {
     background-color: #323232;
