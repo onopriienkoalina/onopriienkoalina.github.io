@@ -70,7 +70,7 @@ a {
 .project{
     position: relative;
     z-index: 1;
-    padding: 100px 0 0 0;
+    pa
 }
 .project:before, .news:before{
     content: '';
@@ -108,7 +108,7 @@ a {
 }
 .wrap__tittle {
     width: 50%;
-    
+    margin-top: 100px;
 
 }
 .title {
@@ -172,7 +172,7 @@ a {
    
 }
 .wrapper__news-item {
-
+margin: 30px 0 15px 18px;
 }
 .news-item__date {
     padding: 30px 0 0 0;
