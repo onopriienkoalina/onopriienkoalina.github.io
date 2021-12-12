@@ -26,6 +26,24 @@ a {
   padding: 0 15px;
 }
 
+@media (max-width: 1140px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+}
+
 .wrap-header {
   min-height: 75rem;
   background: url(../img/Rectangle.jpg) 50% 50% no-repeat;
@@ -80,7 +98,6 @@ a {
 }
 
 .menu__link {
-  line-height: 257%;
   font-weight: 400;
   color: #FFFFFF;
 }
@@ -202,6 +219,7 @@ a {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 33.333%;
           flex: 0 1 33.333%;
+  margin-bottom: 97px;
 }
 
 .wrap-tittle__news {
@@ -232,7 +250,7 @@ a {
   font-size: 11px;
   line-height: 12.89px;
   color: #343434;
-  letter-spacing: 0.05 em;
+  letter-spacing: 0.05em;
 }
 
 .news-item__label {
@@ -241,7 +259,7 @@ a {
   font-size: 18px;
   line-height: 25.31px;
   color: #303942;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
 }
 
 .news-item__text {
@@ -250,7 +268,7 @@ a {
   font-size: 11px;
   line-height: 13.54px;
   color: #000000;
-  letter-spacing: 0.05 em;
+  letter-spacing: 0.05em;
 }
 
 .btn {
@@ -291,7 +309,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 125px;
+  max-height: 125px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

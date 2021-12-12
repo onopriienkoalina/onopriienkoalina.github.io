@@ -21,20 +21,8 @@ a {
     margin: 0px auto;
     padding: 0 15px;
 }
-@media (max-width: 1140px){
-    .container{
-        max-width: 970px;
-    }
-}
-@media (max-width: 992px){
-    .container{
-        max-width: 750px;
-    }
-}
-@media (max-width: 767px){
-    .container{
-        max-width: none;
-    }
+@media screen {
+    
 }
 .wrap-header {
     min-height: 75rem;
@@ -170,7 +158,6 @@ a {
 .col {
     padding: 0 15px;
     flex: 0 1 33.333%;
-    margin-bottom: 97px;
 }
 .wrap-tittle__news {
     display: flex;

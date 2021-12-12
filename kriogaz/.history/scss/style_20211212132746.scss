@@ -31,9 +31,9 @@ a {
         max-width: 750px;
     }
 }
-@media (max-width: 767px){
+@media (max-width: 768px){
     .container{
-        max-width: none;
+        max-width: 750px;
     }
 }
 .wrap-header {
@@ -170,7 +170,6 @@ a {
 .col {
     padding: 0 15px;
     flex: 0 1 33.333%;
-    margin-bottom: 97px;
 }
 .wrap-tittle__news {
     display: flex;
