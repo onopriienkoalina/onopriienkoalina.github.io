@@ -24,19 +24,19 @@ a {
 .container__small {
     max-width: 855px;
 }
-@media (min-width: 1140px){
+@media (mx-width: 1140px){
     .container{
-        min-width: 970px;
+        max-width: 970px;
     }
 }
-@media (min-width: 992px){
+@media (max-width: 992px){
     .container{
-        min-width: 750px;
+        max-width: 750px;
     }
 }
-@media (min-width: 767px){
+@media (max-width: 767px){
     .container{
-        min-width: none;
+        max-width: none;
     }
 }
 .wrap-header {

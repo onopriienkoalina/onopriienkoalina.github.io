@@ -20,31 +20,31 @@ a {
   overflow: hidden;
 }
 
-.container__small {
-  max-width: 855px;
-}
-
 .container {
   max-width: 1140px;
   margin: 0px auto;
   padding: 0 15px;
 }
 
-@media (max-width: 1140px) {
+.container__small {
+  max-width: 855px;
+}
+
+@media (min-width: 1140px) {
   .container {
-    max-width: 970px;
+    min-width: 970px;
   }
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .container {
-    max-width: 750px;
+    min-width: 750px;
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .container {
-    max-width: none;
+    min-width: none;
   }
 }
 
@@ -194,6 +194,9 @@ a {
   line-height: 22px;
   background-color: white;
   width: 50%;
+  margin-right: -200px;
+  z-index: 5;
+  padding: 30px 40px 46px 40px;
 }
 
 .box-project__image-container {
@@ -206,7 +209,7 @@ a {
   z-index: -1;
   height: 450px;
   padding-left: 100px;
-  margin-top: -270px;
+  margin-top: -200px;
 }
 
 .row {

@@ -22,7 +22,7 @@ a {
     padding: 0 15px;
 }
 .container__small {
-    max-width: 855px;
+    min-width: 855px;
 }
 @media (min-width: 1140px){
     .container{
@@ -34,9 +34,9 @@ a {
         min-width: 750px;
     }
 }
-@media (min-width: 767px){
+@media (max-width: 767px){
     .container{
-        min-width: none;
+        max-width: none;
     }
 }
 .wrap-header {
