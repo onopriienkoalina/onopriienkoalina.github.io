@@ -120,6 +120,9 @@ a {
     object-fit: cover;
     z-index: -1;
 }
+.project__col {
+ 
+}
 .wrap__tittle {
     width: 50%;
 }
@@ -127,6 +130,7 @@ a {
     font-size: 30px;
     font-weight: bold;
     line-height: 35px;
+    margin: 100px 0 0 0;
 }
 .subtitle {
     padding: 20px 0 40px 0;
@@ -175,7 +179,6 @@ a {
     margin-bottom: 97px;
 }
 .wrap-tittle__news {
-    padding: 100px 0 0 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -230,7 +233,7 @@ a {
     padding: 14px 20px;
 }
 .btn__all{
-    margin: 0 0 56px 730px;
+    
     padding: 14px 18px;
 }
 .footer {

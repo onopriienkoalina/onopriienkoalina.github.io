@@ -228,6 +228,7 @@ a {
 }
 
 .wrap-tittle__news {
+  padding: 100px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,7 +302,7 @@ a {
 }
 
 .btn__all {
-  margin: 100px 56px 0 720px;
+  margin: 0 0 56px 730px;
   padding: 14px 18px;
 }
 
