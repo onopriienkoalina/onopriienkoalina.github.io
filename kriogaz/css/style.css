@@ -193,10 +193,7 @@ a {
   font-family: "Montserrat";
   line-height: 22px;
   background-color: white;
-}
-
-.box-project__image-container {
-  width: 100%;
+  width: 50%;
 }
 
 .project__image {
@@ -206,6 +203,7 @@ a {
   height: 450px;
   padding-left: 100px;
   margin-top: -330px;
+  width: 100%;
 }
 
 .row {
