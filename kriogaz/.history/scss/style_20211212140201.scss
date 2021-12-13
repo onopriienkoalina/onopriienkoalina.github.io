@@ -152,16 +152,16 @@ a {
     font-family: "Montserrat";
     line-height: 22px;
     background-color: white;
-   
+    padding: 30px 40px 46px 30px;
+    margin: 0 -230px 187px 0;  
 }
 .project__image {
     box-sizing: border-box;
     z-index: -1;
-    width: 100%;
+    width: 44%;
     height: 450px;
     padding-left: 100px;
-    margin-top: -330px;
-    
+    margin-top: -310px;
 }
 .row {
     display: flex;

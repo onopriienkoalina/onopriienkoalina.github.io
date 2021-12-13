@@ -152,16 +152,16 @@ a {
     font-family: "Montserrat";
     line-height: 22px;
     background-color: white;
-   
+    padding: 30px 40px 46px 30px;
+    margin: 0 -230px 187px 0;  
 }
 .project__image {
     box-sizing: border-box;
     z-index: -1;
-    width: 100%;
+    width: 44%;
     height: 450px;
     padding-left: 100px;
-    margin-top: -330px;
-    
+    margin-top: -270px;
 }
 .row {
     display: flex;
@@ -219,17 +219,18 @@ margin-right: 30px;
     font-weight: 400;
     color: white;
     display: inline-block;
+    width: 125px;
+    height: 40px;
     align-items: center;
     justify-content: space-between;
     margin: 20px 0 0 0;
-    padding: 14px 20px;
 }
 .btn__all{
     align-items: center;
     justify-content: space-between;
     margin: 100px 0 0 771px;
-    padding: 14px 18px;
-    white-space:nowrap;
+    width: 139px;
+    height: 40px;
 }
 .footer {
     background-color: #323232;
@@ -249,7 +250,6 @@ margin-right: 30px;
     letter-spacing: 0.05em;
     text-align: initial;
     padding: 0 0 40px 0;
-    text-align: center;
     
 
 }
