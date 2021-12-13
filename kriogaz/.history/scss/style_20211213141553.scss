@@ -175,9 +175,7 @@ a {
 }
 .wrap-tittle__news {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    white-space:nowrap;
+    
 }
 .news-item__image {
     width: 100%;
@@ -228,8 +226,11 @@ a {
     padding: 14px 20px;
 }
 .btn__all{
-    margin: 100px 56px 0 720px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0 0 771px;
     padding: 14px 18px;
+    white-space:nowrap;
 }
 .footer {
     background-color: #323232;

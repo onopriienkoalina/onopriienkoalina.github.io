@@ -1,4 +1,4 @@
-imhtml {
+html {
   font-size: 62.5%;
 }
 
@@ -18,6 +18,10 @@ a {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+}
+
+.container__small {
+  max-width: 855px;
 }
 
 .container {
@@ -109,7 +113,7 @@ a {
 .project {
   position: relative;
   z-index: 1;
-  padding: 100px 0 0 0;
+  padding: 100px 0 100px 0;
 }
 
 .project:before, .news:before {
@@ -147,10 +151,6 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: -1;
-}
-
-.container__small {
-  max-width: 855px;
 }
 
 .wrap__tittle {
@@ -196,14 +196,17 @@ a {
   width: 50%;
 }
 
+.box-project__image-container {
+  width: 100%;
+}
+
 .project__image {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   z-index: -1;
   height: 450px;
   padding-left: 100px;
-  margin-top: -330px;
-  width: 100%;
+  margin-top: -270px;
 }
 
 .row {
@@ -225,6 +228,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  white-space: nowrap;
 }
 
 .news-item__image {
@@ -288,15 +298,8 @@ a {
 }
 
 .btn__all {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 100px 0 0 771px;
+  margin: 100px 56px 0 720px;
   padding: 14px 18px;
-  white-space: nowrap;
 }
 
 .footer {
@@ -328,9 +331,12 @@ a {
 }
 
 .column {
-  padding: 40px 25px 22px 0;
   color: #FFFFFF;
   font-weight: 400;
   line-height: 16.41px;
   font-size: 14px;
+}
+
+.footer__item {
+  padding: 40px 25px 22px 0;
 }
