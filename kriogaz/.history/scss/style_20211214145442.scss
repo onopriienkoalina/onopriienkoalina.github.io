@@ -229,8 +229,7 @@ a {
 
 .footer {
     background-color: #323232;
-    padding: 40px 25px 22px 0;    
-}
+    
 }
 .footer__list {
     display: flex;
@@ -254,4 +253,7 @@ a {
     line-height: 16.41px;
     font-size: 14px;
     
+}
+.footer__item {
+    padding: 40px 25px 22px 0;    
 }

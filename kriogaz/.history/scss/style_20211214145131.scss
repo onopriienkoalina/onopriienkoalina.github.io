@@ -204,7 +204,7 @@ a {
     letter-spacing: 0.03em;
 }
 .news-item__text {
-    padding: 20px 0;
+    padding: 20px 20px 0;
     font-weight: 300;
     font-size: 11px;
     line-height: 13.54px;
@@ -229,8 +229,6 @@ a {
 
 .footer {
     background-color: #323232;
-    padding: 40px 25px 22px 0;    
-}
 }
 .footer__list {
     display: flex;
@@ -254,4 +252,7 @@ a {
     line-height: 16.41px;
     font-size: 14px;
     
+}
+.footer__item {
+    padding: 40px 25px 22px 0;    
 }
