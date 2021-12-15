@@ -189,11 +189,10 @@ a {
 }
 .contacts__link{
     color: #FFFFFF;
+    
     position: relative;
     z-index: 1;
-}
-p {
-    margin-bottom: 10px;
+    display: inline-block;
 }
 .contacts__link:hover {
     opacity: 0.6;

@@ -184,16 +184,16 @@ a {
     position: relative;
     z-index: 1;
 }
-.menu__link:hover {
-    opacity: 0.6;
+.menu__link:after {
+
+}
+.menu__link:hover: {}
 }
 .contacts__link{
     color: #FFFFFF;
+    padding: 10px;
     position: relative;
     z-index: 1;
-}
-p {
-    margin-bottom: 10px;
 }
 .contacts__link:hover {
     opacity: 0.6;
@@ -328,7 +328,6 @@ p {
 }
 .btn {
     background-color: #0F4898;
-    border: #0F4898 solid 1px;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
