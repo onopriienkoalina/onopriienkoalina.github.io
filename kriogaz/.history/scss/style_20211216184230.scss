@@ -323,7 +323,7 @@ p {
     flex: 1 1 auto;
     display: flex;
     align-items: center;
-    min-width: 0;
+    
     
 }
 .project__text-content {
@@ -342,9 +342,6 @@ p {
     margin-top: -100px;
     justify-content: space-between;
 }
-.slider {
-    min-width: 0;
-}
 .slick-slider{
 
 }
@@ -353,18 +350,6 @@ p {
 }
 .slick-track{
     display: flex;
-}
-.slider .slick-arrow{
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    font-size: 0;
-}
-.slick-arrow .slick-prev{
-    left: 0;
-}
-.slick-arrow .slick-next{
-    right: 0;
 }
 
 .row {

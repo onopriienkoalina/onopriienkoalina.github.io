@@ -3,6 +3,5 @@ $(document).ready(function() {
         $('.btn-menu,.header__menu').toggleClass('active');
     });
 });
-$(document).ready(function() {
-    $('.slider').slick();
-});   
+
+    
